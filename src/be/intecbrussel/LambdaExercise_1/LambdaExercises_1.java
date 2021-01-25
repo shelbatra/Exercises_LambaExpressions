@@ -40,24 +40,9 @@ public class LambdaExercises_1 {
             return 0;
         });
         Arrays.stream(arrayOfStrings).forEach(System.out::println);
-        //  Arrays.sort(array, (s1,s2) -> sortBy(s1) - sortBy(s2));
-        //  Arrays.sort(data,(a1, a2) -> getFirstChar(a1) - getFirstChar(a2));
+
 
 
     }
 }
 
-        /*public static void sortBy(String str) {
-        String[] words = { "Java", "C#", "Scala", "Basic", "C++", "Ruby", "Pyton",
-                "Perl", "Haskell", "Jet" };
-        Arrays.sort(words,(a1, a2) ->{
-            if(a1.contains("e") && a2.contains("e"))
-                return 0;
-            else if(a1.contains("e"))
-                return -1;
-            else if (a2.contains("e"))
-                return 1;
-            return 0;
-        });
-    }
-}*/
